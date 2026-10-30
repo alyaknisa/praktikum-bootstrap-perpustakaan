@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktik Boostrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+<body>
+    <header class="bg-secondary text-white p-4">
+        <h1 class="h3 m-0">Website Praktik</h1>
+    </header>
+
+    <nav class="bg-info text-white p-3">Navigasi</nav>
+    <div class="container-fluid my-4">
+        <div class="row" min-vh-100>
+            <aside class="col-md-3">
+                <div class="bg-light border rounded p-3">
+                    <h2>Menu</h2>
+                    <ul class="list-group"> 
+                        <li class="list-group-item"><a href="Dashboard.html" class="text-decoration-none text-black">Dashboard</a></li>
+                        <li class="list-group-item"><a href="buku.html" class="text-decoration-none text-black">Daftar Buku</a></li>
+                        <li class="list-group-item"><a href="form_peminjaman.html" class="text-decoration-none text-black">Form Peminjam</a></li>
+                    </ul>
+                </div>
+            </aside>
+            <main class="col-md-9">
+                <section class="border rounded p-3 mt-4">
+                    <h2>daftar buku</h2>
+                    <table class="table table-striped table-hover">
+                        <thead>
+                            <tr>
+                                <th>Judul</th>
+                                <th>Penulis</th>
+                                <th>Tahun Terbit</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Buku 1</td>
+                                <td>Penulis 1</td>
+                                <td>2020</td>
+                            </tr>
+                            <tr>
+                                <td>Buku 2</td>
+                                <td>Penulis 2</td>
+                                <td>2021</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+            </main>
+        </div>
+    </div>
+
+    <footer class="bg-dark-subtle text-black text-center p-2 m-4">
+        <p class="mb-0">Copyright &copy; 2023 Website Praktik. All rights reserved.</p>
+    </footer>
+</body>
+<script>
+    let buku = [
+        { judul: "Buku 1", penulis: "Penulis 1", tahun: 2020 },
+        { judul: "Buku 2", penulis: "Penulis 2", tahun: 2021 }
+    ];
+    
+</script>
+</html>
