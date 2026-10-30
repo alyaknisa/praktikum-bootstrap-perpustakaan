@@ -20,9 +20,9 @@
                 <div class="bg-light border rounded p-3">
                     <h2>Menu</h2>
                     <ul class="list-group">
-                        <li class="list-group-item"><a href="dashboard.html" class="text-decoration-none text-black">Dashboard</a></li>
-                        <li class="list-group-item active"><a href="index.php" class="text-decoration-none text-white fw-bold">Daftar Buku</a></li>
-                        <li class="list-group-item"><a href="form_peminjaman.html" class="text-decoration-none text-black">Form Peminjam</a></li>
+                        <li class="list-group-item"><a href="index.html" class="text-decoration-none text-black">Dashboard</a></li>
+                        <li class="list-group-item"><a href="index.php" class="text-decoration-none text-black">Daftar Buku</a></li>
+                        <li class="list-group-item"><a href="#" class="text-decoration-none text-black">Form Peminjam</a></li>
                     </ul>
                 </div>
             </aside>
